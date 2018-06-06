@@ -48,7 +48,7 @@ function Gate(x, y, direction) {
     // } else if (this.direction == 'left') {
       // image(leftFlag, this.x - this.r*7, this.y - this.r*6,
         // this.r * 9, this.r * 14);
-    }
+    // }
 }
 
 

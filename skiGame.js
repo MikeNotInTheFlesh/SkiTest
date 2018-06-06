@@ -82,7 +82,7 @@ function draw() {
     // if (soundIcon.mode == 'on') {
       // levelSound.setVolume(0.3);
       // levelSound.play();
-    }
+    // }
     for (let trap of sandTraps) {
       trap.r += 1;
     }
@@ -110,7 +110,7 @@ function draw() {
       // if (soundIcon.mode == 'on') {
         // gateSound.setVolume(0.2);
         // gateSound.play();
-      }
+      // }
       for (let gate of gates){
         gate.timeleft += 60;
       }

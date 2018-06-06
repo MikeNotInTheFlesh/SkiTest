@@ -36,18 +36,18 @@ function Gate(x, y, direction) {
   }
 
 
-    if (this.direction == 'up') {
-      image(upFlag, this.x - this.r*6, this.y - this.r*7,
-        this.r * 14, this.r * 9);
-    } else if (this.direction == 'down') {
-      image(downFlag, this.x - this.r*6, this.y - this.r*2,
-        this.r * 14, this.r * 9);
-    } else if (this.direction == 'right') {
-      image(rightFlag, this.x - this.r*2, this.y - this.r * 6,
-        this.r * 9, this.r * 14);
-    } else if (this.direction == 'left') {
-      image(leftFlag, this.x - this.r*7, this.y - this.r*6,
-        this.r * 9, this.r * 14);
+    // if (this.direction == 'up') {
+      // image(upFlag, this.x - this.r*6, this.y - this.r*7,
+        // this.r * 14, this.r * 9);
+    // } else if (this.direction == 'down') {
+      // image(downFlag, this.x - this.r*6, this.y - this.r*2,
+        // this.r * 14, this.r * 9);
+    // } else if (this.direction == 'right') {
+      // image(rightFlag, this.x - this.r*2, this.y - this.r * 6,
+        // this.r * 9, this.r * 14);
+    // } else if (this.direction == 'left') {
+      // image(leftFlag, this.x - this.r*7, this.y - this.r*6,
+        // this.r * 9, this.r * 14);
     }
 }
 

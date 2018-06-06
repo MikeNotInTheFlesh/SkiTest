@@ -12,8 +12,8 @@ function Skier() {
 
 
   this.show = function() {
-   // fill(255, 0, 0, 200);
-   // ellipse(this.x, this.y, this.r * 2, this.r * 2)
+   fill(255, 0, 0, 200);
+   ellipse(this.x, this.y, this.r * 2, this.r * 2)
 
   }
 

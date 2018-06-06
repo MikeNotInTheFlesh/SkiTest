@@ -23,18 +23,18 @@ var soundIcon;
 
 
 function preload(){
-  img1 = loadImage("bski2.gif");
-  img2 = loadImage("bski3.gif");
-  img3 = loadImage("bski4.gif");
-  img4 = loadImage("bski5.gif");
-  upFlag = loadImage("upFlag.gif");
-  downFlag = loadImage("downFlag.gif");
-  rightFlag = loadImage("rightFlag.gif");
-  leftFlag = loadImage("leftFlag.gif");
-  ice = loadImage("ice.jpg");
-  sand = loadImage("sand2.gif");
-  soundOn = loadImage("soundOn.gif");
-  soundOff = loadImage("soundOff.gif");
+  // img1 = loadImage("bski2.gif");
+  // img2 = loadImage("bski3.gif");
+  // img3 = loadImage("bski4.gif");
+  // img4 = loadImage("bski5.gif");
+  // upFlag = loadImage("upFlag.gif");
+  // downFlag = loadImage("downFlag.gif");
+  // rightFlag = loadImage("rightFlag.gif");
+  // leftFlag = loadImage("leftFlag.gif");
+  // ice = loadImage("ice.jpg");
+  // sand = loadImage("sand2.gif");
+  // soundOn = loadImage("soundOn.gif");
+  // soundOff = loadImage("soundOff.gif");
   // gateSound = loadSound("gateSound.mp3");
   // levelSound = loadSound("levelSound.mp3");
 
@@ -65,7 +65,7 @@ function setup() {
 
 function draw() {
   background(255);
-  image(ice, 0, 0, width, height)
+  // image(ice, 0, 0, width, height)
 
   for (var i = 0; i < sandTraps.length; i++) {
     sandTraps[i].show();
@@ -137,7 +137,7 @@ function draw() {
 }
   skier.show();
   dirImg = directionGraphic(skier);
-  image(dirImg, skier.x - skier.r, skier.y - skier.r, skier.r * 2, skier.r * 2);
+  // image(dirImg, skier.x - skier.r, skier.y - skier.r, skier.r * 2, skier.r * 2);
     score += sqrt(skier.px * skier.px + skier.py * skier.py) / 1000;
     // wraps skier around screen border
     skier.x += skier.px / (width / (8 + sandTraps.length));

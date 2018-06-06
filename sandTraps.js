@@ -9,12 +9,12 @@ function SandTrap(x, y) {
 
   this.show = function() {
 
-    // noStroke();
-    // rColor = Math.floor(Math.random()) *100 + 50;
-    // fill(rColor);
-    // ellipse(this.x, this.y, this.r * 2, this.r * 2);
-    image(sand, this.x - this.r, this.y - this.r,
-      this.r * 2, this.r * 2);
+    noStroke();
+    rColor = Math.floor(Math.random()) *100 + 50;
+    fill(rColor);
+    ellipse(this.x, this.y, this.r * 2, this.r * 2);
+    // image(sand, this.x - this.r, this.y - this.r,
+      // this.r * 2, this.r * 2);
   }
 
   this.collision = function(skier) {

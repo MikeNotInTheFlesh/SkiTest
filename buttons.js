@@ -47,15 +47,16 @@ function soundButton() {
   }
   this.show = function() {
 
-    if (this.mode == 'on') {
-    image(soundOn, this.x - this.r, this.y - this.r,
-      this.r * 2, this.r * 2);
-  } else {
-    image(soundOff, this.x - this.r, this.y - this.r,
-      this.r * 2, this.r * 2);
+    // if (this.mode == 'on') {
+    // image(soundOn, this.x - this.r, this.y - this.r,
+      // this.r * 2, this.r * 2);
+  // } else {
+    // image(soundOff, this.x - this.r, this.y - this.r,
+      // this.r * 2, this.r * 2);
+  // }
+  
   }
-
-  }
+  
   this.change = function() {
     if (this.mode == 'on') {
       this.mode = 'off';

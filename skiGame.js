@@ -136,7 +136,7 @@ function draw() {
 
 }
   skier.show();
-  dirImg = directionGraphic(skier);
+  // dirImg = directionGraphic(skier);
   // image(dirImg, skier.x - skier.r, skier.y - skier.r, skier.r * 2, skier.r * 2);
     score += sqrt(skier.px * skier.px + skier.py * skier.py) / 1000;
     // wraps skier around screen border

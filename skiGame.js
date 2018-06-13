@@ -22,7 +22,9 @@ var ngame;
 var soundIcon;
 
 
-function preload(){
+console.log("This working???");
+
+// function preload(){
   // img1 = loadImage("bski2.gif");
   // img2 = loadImage("bski3.gif");
   // img3 = loadImage("bski4.gif");
@@ -50,7 +52,7 @@ function setup() {
   skier = new Skier();
   mbutton = new modeButton();
   ngame = new newGame2();
-  soundIcon = new soundButton();
+  // soundIcon = new soundButton();
 
   for (var i = 0; i < 2; i++) {
     sandTraps[i] = new SandTrap(random(width), random(height));
@@ -89,7 +91,7 @@ function draw() {
   }
 
   mbutton.show(); //mode mbutton
-  soundIcon.show();
+  // soundIcon.show();
 
   textFont("Impact, Charcoal, sans-serif");
   fill(0);
@@ -237,12 +239,13 @@ function mouseClicked() {
     ngame.y - ngame.h / 2 < mouseY && mouseY < ngame.y + ngame.h / 2
           ) {
   location.reload();
-  } else if (
-    soundIcon.x - soundIcon.r / 2 < mouseX
-    && mouseX < soundIcon.x + soundIcon.r / 2
-    && soundIcon.y - soundIcon.r / 2 < mouseY
-    && mouseY < soundIcon.y + soundIcon.r / 2
-  ) {
-    soundIcon.change();
-  }
+  } 
+  // else if (
+    // soundIcon.x - soundIcon.r / 2 < mouseX
+    // && mouseX < soundIcon.x + soundIcon.r / 2
+    // && soundIcon.y - soundIcon.r / 2 < mouseY
+    // && mouseY < soundIcon.y + soundIcon.r / 2
+  // ) {
+    // soundIcon.change();
+  // }
 }
